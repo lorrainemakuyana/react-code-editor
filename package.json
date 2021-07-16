@@ -1,0 +1,53 @@
+{
+  "name": "code-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.0",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "codemirror": "^5.62.0",
+    "react": "^16.5.0",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^16.5.0",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.4.2",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "vite"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "devDependencies": {
+      "autoprefixer": "^10.2.6",
+      "postcss": "^8.3.5",
+      "tailwindcss": "^2.2.4",
+      "vite": "^2.3.8"
+    }
+  }
+}
